@@ -1,0 +1,7 @@
+SEM 1
+1. Any example of inline functions
+2. use of friend functions
+3. Use of static data members and static member functions
+4. Add two complex Number by returnin objects to function.
+5. Use of destructors and constructors in a single function
+
