@@ -1,0 +1,5 @@
+Virtual Functions
+Virtual Base Class
+Diamond Ambiguity
+Ambiguity in single inheritance
+
