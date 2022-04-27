@@ -53,9 +53,7 @@ public:
     int operator>(Student ob)
     {
         if (rollNo > ob.rollNo)
-        {
             return 1;
-        }
         return 0;
     }
 };
