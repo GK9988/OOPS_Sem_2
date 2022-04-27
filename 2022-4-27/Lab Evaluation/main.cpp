@@ -97,7 +97,6 @@ int main()
         cout << "Student: " << i + 1;
         arr[i].displayData();
         cout << endl;
-        cin.ignore();
     }
 
     bubbleSort(arr, n);
