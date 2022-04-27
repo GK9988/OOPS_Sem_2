@@ -16,17 +16,29 @@ int main()
             {
                 throw n;
             }
+            if (n == 1)
+            {
+                throw 'c';
+            }
+            cout << endl
+                 << "Correct Value Entered" << endl;
         }
-        catch (...)
+        catch (int)
         {
             cout << endl
                  << "Zero Error inner Exception" << endl;
-            throw n;
+            throw 1;
+        }
+        catch (char)
+        {
+            cout << endl
+                 << "1 to Char Error" << endl;
+            throw "C";
         }
     }
     catch (...)
     {
         cout << endl
-             << "Zero Error outer Exception" << endl;
+             << "outer Exception" << endl;
     }
 }
